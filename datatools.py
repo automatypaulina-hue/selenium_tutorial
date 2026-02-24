@@ -4,6 +4,12 @@ class Gender:
 
 class TestData:
     EMAIL = "marcin@marcin.com"
-    GENDER = Gender.MALE
+    GENDER = Gender.FEMALE
+    LAST_NAME = "Nowak"
+    FIRST_NAME = "Janek"
+    VALID_PASSWORD = "JJHGG88748&#&^nb"
+    BIRTH_DAY = "12"
+    BIRTH_MONTH = "2"
+    BIRTH_YEAR = "1986"
 
 print(f"ZAIMPORTOWANO {__name__}")
